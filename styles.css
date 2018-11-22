@@ -37,3 +37,28 @@ footer p {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.mt-neg {
+  margin-top: -10px;
+}
+
+.mt-superneg {
+  margin-top: -20px;
+}
+
+.pd-negate {
+  padding: -48px;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.03); }
+
+.img-title {
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .right-elem {
+    text-align: left !important;
+  }
+}

@@ -13,67 +13,243 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom style for this website -->
     <link href="styles.css" rel="stylesheet">
   </head>
-
+  <!--This website is designed with minimalism in mind. -->
+  <!--Which for me, is just an excuse for laziness. -->
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Do I even need a navbar?
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">Jeremy Woffinden</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+      <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav text-md-center text-left">
           <a class="nav-item nav-link active" href="#">Top <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#">About Me</a>
           <a class="nav-item nav-link" href="#">Portfolio</a>
           <a class="nav-item nav-link" href="#">Resume</a>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
     <div class="jumbotron">
       <div class="container text-center">
         <img src="me.jpg" class="rounded-circle img-fluid" alt="me" width="200" height="200">
-        <h1>My Portfolio</h1>
-        <p>Some text that represents "Me"...</p>
+        <br><br><h1>Jeremy Woffinden</h1>
+        <h4>Software Engineer</h4>
+        <p>Japanese/American computer scientist, (almost) fresh out of college. I like to code, play video games, and am a music enthusiast. I do freelance/part-time web development, consulting, and coding in my free time. Contact me for any inquiries.</p>
+        <!-- Send that spam my way -->
+        <p class="mt-neg"><small class="small">Email:</small> <small class="text-muted">jeremywoffinden25@gmail.com</small></p>
+        <p class="mt-superneg"><small>Spoken Languages:</small> <small class="text-muted">English, Japanese, French (Elementary)</small></p>
+        <!-- Using the word "like" very loosely for some things on the list...you know who you are -->
+        <p class="mt-superneg"><small>Stuff I "like" working with:</small> <small class="text-muted">
+            Python, C#, JavaScript, Flask, ReactJS, Linux, AWS, Git, Bind9 (DNS)</small></p>
         <a href="https://www.linkedin.com/in/jwoff/" class="p-2"><i class="fab fa-linkedin fa-3x"></i></a>
         <a href="https://github.com/jwoff25/" class="p-2"><i class="fab fa-github fa-3x"></i></a>
         <a href="https://twitter.com/jerewoff25" class="p-2"><i class="fab fa-twitter-square fa-3x"></i></a>
       </div>
     </div>
 
-    <div class="container-fluid bg-3 text-center">
-      <h3>Some of my Work</h3><br>
+    <div class="container bg-3 text-center">
+      <h2>Resume</h2><br>
+      <h4 class="text-left"><u>Education</u></h4><br>
       <div class="row">
-        <div class="col-sm-3">
-          <p>Some text..</p>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        <div class="col-sm-8">
+          <h5 class="text-left">Brigham Young University Hawaii</h5>
         </div>
-        <div class="col-sm-3">
-          <p>Some text..</p>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        <div class="col-sm-4">
+          <p class="text-right right-elem">Laie, HI</p>
         </div>
-        <div class="col-sm-3">
-          <p>Some text..</p>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+      <div class="row mt-neg">
+        <div class="col-sm-8">
+          <p class="text-left font-weight-light">B.S in Computer Science, Minor in IT/IS; Magna Cum Laude, GPA: 3.82</p>
         </div>
-        <div class="col-sm-3">
-          <p>Some text..</p>
-          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        <div class="col-sm-4">
+          <p class="text-right font-weight-light right-elem">Aug 2014 ~ Apr 2018</p>
+        </div>
+      </div>
+      <div class="row mt-neg">
+        <div class="col-sm-2 text-left text-muted small">
+          <p>Relevant Coursework:
+        </div>
+        <div class="col-sm-10 text-left text-muted small">
+          <p> Object Oriented Programming, Android Development, Algorithms and Complexity,Computational Theory,
+            Computer Organization, Discrete Mathematics, Computer Networking, Web Design, System Engineering I/II,
+            Web Applications Development, Operating Systems Design, Linux Systems Administration</p>
+        </div>
+      </div></br>
+      <h4 class="text-left"><u>Work Experience</u></h4><br>
+      <div class="row">
+        <div class="col-sm-8">
+          <h5 class="text-left">Security Solutions Architect</h5>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-right right-elem">Sep 2018~</p>
+        </div>
+      </div>
+      <div class="row mt-neg">
+        <div class="col-sm-8">
+          <p class="text-left font-weight-light">Akamai Technologies GK</p>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-right font-weight-light right-elem">Tokyo, Japan</p>
+        </div>
+      </div>
+      <div class="row mt-neg">
+        <div class="col-sm-10 text-left text-muted small">
+          <p>Currently undergoing extensive training on internet fundamentals
+            (DNS/HTTP(s),SSL/TLS, BGP) as well as edge technologies (caching, WAF, etc.)
+            provided by Akamai.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <h5 class="text-left">Computer Science Tutor</h5>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-right right-elem">Aug 2016 ~ Apr 2018</p>
+        </div>
+      </div>
+      <div class="row mt-neg">
+        <div class="col-sm-8">
+          <p class="text-left font-weight-light">Brigham Young University - Hawaii</p>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-right font-weight-light right-elem">Laie, HI</p>
+        </div>
+      </div>
+      <div class="row mt-neg">
+        <div class="col-sm-10 text-left text-muted small">
+          <p><strong>Promoted to Student Supervisor in Sep 2017.</strong></p>
+          <p class="mt-neg">
+            Graded student assignments/tests. Helped students with coding logic
+            and bug fixes. Answered student questions with in-depth answers and guided
+            them to understand programming assignments. Tutored for a variety of
+            different classes and languages, including <em>Python, Java, C++, C, C#,
+            Android Development, and Operating Systems</em>.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <h5 class="text-left">Software Engineer Intern (Test/Automation)</h5>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-right right-elem">Jul 2017 ~ Aug 2017</p>
+        </div>
+      </div>
+      <div class="row mt-neg">
+        <div class="col-sm-8">
+          <p class="text-left font-weight-light">Continental AG</p>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-right font-weight-light right-elem">Yokohama, Japan</p>
+        </div>
+      </div>
+      <div class="row mt-neg">
+        <div class="col-sm-10 text-left text-muted small">
+          <p>
+            Developed prototype software to automate testing process for RADAR/LiDAR
+            devices used for ADAS (Advanced Driver Assistance System) to reduce time
+            spent by at least 50%. Wrote documentation using Doxygen/Word as well as
+            a user guide and requirements sheet in excel. Presented the project to
+            stakeholders and prepped project for handover to next intern.
+          </p>
+          <p class="mt-neg"><strong>Tools Used: Python, Shell Script, Doxygen, MS Word/Excel</strong></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <h5 class="text-left">Database Engineer Intern</h5>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-right right-elem">Jul 2016 ~ Aug 2016</p>
+        </div>
+      </div>
+      <div class="row mt-neg">
+        <div class="col-sm-8">
+          <p class="text-left font-weight-light">Zone LLC</p>
+        </div>
+        <div class="col-sm-4">
+          <p class="text-right font-weight-light right-elem">Yokohama, Japan</p>
+        </div>
+      </div>
+      <div class="row mt-neg">
+        <div class="col-sm-10 text-left text-muted small">
+          <p>
+            Developed inventory management tool in Microsoft Access for health
+            devices. Produced reports using SQL queries to improve data accessibility
+            and efficiency.
+          </p>
+          <p class="mt-neg"><strong>Tools Used: SQL, MS Access</strong></p>
+        </div>
+      </div>
+    </div><br>
+
+    <div class="container bg-3 text-center">
+      <h2>Portfolio</h2><br>
+      <h4 class="text-left"><u>Personal Projects</u></h4><br>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="https://custom-scripts.xyz"><img src="cs.png" alt="custom scripts website" class="img-thumbnail grow"></a>
+          <h5 class="img-title">CustomScripts Website</h5>
+          <p class="mt-neg lead"><small class="text-muted">Developed In:</small> <small>HTML/CSS/JavaScript(ReactJS)</small></p>
+          <p class="mt-superneg lead"><small class="text-muted">Hosted On:</small> <small>AWS S3 (Cloudfront)</small></p>
+          <p class="small mt-neg">
+            A static React website for a business idea I had while thinking of ways
+            to make money without leaving my room. Originally, I started development on this website
+            to learn ReactJS and Bootstrap, and as you can see I used my patented "minimalist" design principles.
+          </p>
+          <p class="text-muted small mt-neg">
+            Believe it or not we're in business so if you're interested send me an email.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <a href="http://awl-practice-test.s3-website.us-east-2.amazonaws.com/"><img src="awl.png" alt="awl practice test" class="img-thumbnail grow"></a>
+          <h5 class="img-title">English Practice Test</h5>
+          <p class="mt-neg lead"><small class="text-muted">Developed In:</small> <small>HTML/CSS/JavaScript</small></p>
+          <p class="mt-superneg lead"><small class="text-muted">Hosted On:</small> <small>AWS S3 Bucket</small></p>
+          <p class="small mt-neg">
+            A practice quiz website made to help ESL
+            students at my college study for the AWL (Advanced Word List) Test.
+            I released it to a small group of students and they liked it so now
+            I'm trying to get the school to host it for me so I don't have to pay
+            $2 a month for the S3 bucket.
+          </p>
+          <p class="text-muted small mt-neg">
+            Special thanks to my good friend <a href="https://github.com/bin0204">Seobin Nam</a>
+            for doing the CSS/Bootstrap work I so adamantly refused to do.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://app.jshiota.tk"><img src="req.png" alt="requester" class="img-thumbnail grow"></a>
+          <h5 class="img-title">HTTP Custom Requests</h5>
+          <p class="mt-neg lead"><small class="text-muted">Developed In:</small> <small>HTML/Python(Flask)</small></p>
+          <p class="mt-superneg lead"><small class="text-muted">Hosted On:</small> <small>AWS EC2 (Amazon Linux)</small></p>
+          <p class="small mt-neg">
+            *slaps website* This baby can send HTTP requests with custom headers
+            AND you can see the server HTTP response. *slaps it again* Oh, and it's got two authoritative
+            DNS nameservers on EC2 instances that I built specifically for this website using Bind.
+          </p>
+          <p class="text-muted small mt-neg">
+            This is the most control I've had over my own website. It's hard not to go mad with power.
+          </p>
         </div>
       </div>
       </div><br>
 
       <div class="container-fluid bg-3 text-center">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-6">
           <p>Some text..</p>
           <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6">
           <p>Some text..</p>
           <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
         </div>
@@ -94,7 +270,6 @@
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
